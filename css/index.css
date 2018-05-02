@@ -1,0 +1,400 @@
+    body {
+        /* background-image: url('./img/fondo.jpg');
+    background-size: cover; */
+        background-color: rgb(27, 27, 27);
+    }
+    
+    #imgbaner {
+        background: rgba(0, 0, 255, 0.404);
+    }
+    /* /////////////////////////////////// */
+    
+    #containe {
+        background: url('../img/ban5.jpg');
+        height: 200px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 300;
+        /* display: flex; */
+        padding: 0px 0px;
+    }
+    
+    #banerdiv {
+        width: 100%;
+        height: 200px;
+        /* position: fixed; */
+        border: solid;
+        display: flex;
+        /* background-color: rgba(0, 0, 0, 0.699); */
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+90,000000+100&0.52+0,1+69,1+99 */
+        background: -moz-radial-gradient(center, ellipse cover, rgba(69, 72, 77, 0.52) 0%, rgba(16, 17, 18, 1) 69%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 1) 99%, rgba(0, 0, 0, 1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(69, 72, 77, 0.52) 0%, rgba(16, 17, 18, 1) 69%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 1) 99%, rgba(0, 0, 0, 1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: radial-gradient(ellipse at center, rgba(69, 72, 77, 0.52) 0%, rgba(16, 17, 18, 1) 69%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 1) 99%, rgba(0, 0, 0, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8545484d', endColorstr='#000000', GradientType=1);
+        /* IE6-9 fallback on horizontal gradient */
+        /* z-index: auto; */
+    }
+    
+    #description {
+        margin: auto;
+        font-weight: bold;
+        font-size: 40px;
+        padding-top: 50px;
+        margin-left: 50px;
+        /* padding-left: 2%; */
+    }
+    
+    #description2 {
+        position: absolute;
+        justify-content: flex-start;
+        font-weight: bold;
+        color: rgb(194, 194, 194);
+        padding-top: 50px;
+        margin-left: 480px;
+    }
+    
+    #p1 {
+        color: bisque;
+        margin-top: 0px;
+        font-size: 80px;
+    }
+    
+    #description #p1 {
+        color: rgb(255, 251, 0);
+        line-height: 0px;
+    }
+    
+    #p2 {
+        font-weight: normal;
+        line-height: 0px;
+        font-size: 30px;
+        color: rgb(194, 194, 194);
+    }
+    
+    .idnav {
+        width: 100%;
+        position: fixed;
+        margin-top: 200px;
+        /* display: flex; */
+        height: 50px;
+        top: 0;
+        left: 0;
+        background: rgb(248, 225, 15);
+    }
+    /* .idnav2 {
+        position: absolute;
+    } */
+    
+    .idnav .idgaul {
+        margin-top: 0px;
+        display: flex;
+        list-style: none;
+        width: 200px;
+    }
+    
+    .idnav .idgaul .idgaul {
+        display: none;
+    }
+    
+    .idnav .idgaul .idgali:hover .idgaul {
+        display: block;
+        position: absolute;
+    }
+    
+    .idnav a {
+        padding: 13px 20px;
+        font-size: 20px;
+        background-color: rgb(248, 225, 15);
+    }
+    
+    .idnav a:hover {
+        background-color: rgba(34, 34, 34, 0.568);
+        color: rgb(248, 225, 15);
+    }
+    /* .idgaul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+} */
+    /* .idgaul .idgali {
+    float: left;
+    width: 20%;
+    height: 40px;
+    background-color: rgb(255, 251, 0);
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 0.2%;
+    font-weight: bold;
+} */
+    
+    #as {
+        /* float: right; */
+        position: absolute;
+        margin-left: 60%;
+        /* width: 39.1%; */
+        /* background-color: rgb(255, 251, 0); */
+    }
+    
+    .idform {
+        display: flex;
+        padding: 10px;
+        margin-right: 0%;
+    }
+    
+    .idform label {
+        padding: 7px;
+        width: 200px;
+        position: relative;
+        margin-right: 0%;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: block;
+    }
+    
+    ul li a:hover {
+        background-color: rgba(160, 160, 160, 0.87);
+    }
+    /* .idgaul .idgali .idgaul .idgali {
+    display: none;
+} */
+    /* .idgaul .idgali:hover .idgaul .idgali {
+    display: block;
+    width: 100%;
+    height: 40px;
+} */
+    /* #tabla {
+    margin-top: auto;
+    margin-left: 4%;
+} */
+    /* #fila {
+    height: 10px;
+} */
+    
+    #idinput {
+        border-radius: 15px;
+        height: 23px;
+        outline: none;
+        /* position: relative; */
+    }
+    
+    .idin {
+        background-image: url('../img/lupa7.png');
+        background-repeat: no-repeat;
+        background-position: 2px 3px;
+        /* content: "\f002";
+    font-family: "FontAwesome"; */
+    }
+    
+    .clasein {
+        background-color: rgb(255, 222, 152);
+    }
+    /* .form-con {
+    padding-top: 0;
+} */
+    /* #space {
+    width: auto;
+} */
+    
+    #imagenes {
+        display: flex;
+        margin-top: 250px;
+        /* align-items: flex-start; */
+        justify-content: center;
+        width: 98%;
+        z-index: -1;
+        flex-wrap: wrap;
+        position: absolute;
+    }
+    
+    #divimg1 {
+        /* float: left; */
+        margin-left: 2%;
+        margin-top: 40px;
+        height: 400px;
+        width: auto;
+        z-index: -100;
+        background-color: rgb(56, 56, 56);
+        color: blanchedalmond;
+        font-weight: bold;
+        position: relative;
+    }
+    
+    #divimg2 {
+        /* float: left; */
+        margin-left: 3%;
+        margin-top: 40px;
+        height: 400px;
+        width: auto;
+        z-index: -100;
+        background-color: rgb(56, 56, 56);
+        color: blanchedalmond;
+        font-weight: bold;
+        position: relative;
+    }
+    
+    #divimg3 {
+        /* float: right; */
+        margin-left: 3%;
+        margin-top: 40px;
+        height: 400px;
+        width: auto;
+        z-index: -100;
+        background-color: rgb(56, 56, 56);
+        color: blanchedalmond;
+        font-weight: bold;
+        position: relative;
+    }
+    
+    .divdetalle {
+        padding-left: 20px;
+    }
+    
+    .detalleimg {
+        height: 35px;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        /* margin-left: 100px; */
+        position: absolute;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2d2d2d+0,000000+100 */
+        background: rgb(45, 45, 45);
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(45, 45, 45, 1) 0%, rgba(0, 0, 0, 1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(45, 45, 45, 1) 0%, rgba(0, 0, 0, 1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(45, 45, 45, 1) 0%, rgba(0, 0, 0, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2d2d2d', endColorstr='#000000', GradientType=0);
+        /* IE6-9 */
+    }
+    
+    .detalleicon {
+        padding-left: 22px;
+        margin-top: 8px;
+    }
+    
+    .icono {
+        float: right;
+        height: 20px;
+        border: solid;
+        border-top-width: 0;
+        border-right-width: 0;
+        border-bottom-width: 0;
+        border-left-color: rgb(255, 255, 255);
+        border-left-width: 0.5px;
+        padding: 3px;
+    }
+    
+    .titudetalle {
+        color: rgb(255, 251, 0);
+    }
+    
+    .by {
+        color: rgb(136, 136, 136);
+        display: inline;
+    }
+    
+    #by2 {
+        color: rgb(255, 255, 255);
+        padding-left: 10px;
+    }
+    
+    #img1 {
+        /* display: inline-block; */
+        background: url('../img/tus.jpg');
+        height: 250px;
+        width: 300px;
+    }
+    
+    #img2 {
+        background: url('../img/a.png');
+        width: 300px;
+        height: 250px;
+    }
+    
+    #img3 {
+        background: url('../img/3.jpg');
+        height: 250px;
+        width: 300px;
+    }
+    
+    #img4 {
+        background: url('../img/5.jpg');
+        margin-left: 2%;
+        margin-top: 30px;
+        height: 390px;
+        width: 404px;
+        border: 10px solid rgb(0, 0, 0);
+    }
+    
+    #chek {
+        display: none;
+    }
+    
+    #description label {
+        color: rgb(255, 255, 255);
+        display: none;
+    }
+    
+    button {
+        display: none;
+    }
+    
+    @media (max-width:1110px) {
+        .idform {
+            display: none;
+        }
+        #imagenes {
+            margin-top: 200px;
+        }
+        .idnav {
+            /* position: absolute;
+            transform: translateX(-100%);
+            transition: all 0.5s; */
+            display: none;
+        }
+        #description label {
+            color: rgb(255, 255, 255);
+            display: block;
+        }
+        .idnav ul {
+            display: block;
+        }
+        #chek:checked~.idnav {
+            /* transform: translateX(100%);
+            background: rgb(0, 0, 0); */
+            display: block;
+        }
+        /* #chek:checked~button {
+        display: block;
+    } */
+    }
+    
+    @media (max-width:672px) {
+        #description2 {
+            display: none;
+        }
+    }
+    
+    @media (max-width:497px) {
+        #description #p1 {
+            font-size: 50px;
+            margin-left: 0%;
+        }
+        #chek {
+            display: block;
+        }
+        #chek:checked~.idnav {
+            display: block;
+        }
+    }
