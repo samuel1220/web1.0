@@ -399,3 +399,43 @@
             color: rgb(250, 247, 252);
         }
     }
+    
+    @media(max-height:500px)and (max-width:666px) {
+        #containe {
+            height: 100px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 300;
+            /* display: flex; */
+            padding: 0px 0px;
+        }
+        #banerdiv {
+            height: 100px;
+        }
+        #p2 {
+            display: none;
+        }
+        .idnav {
+            margin-top: 100px;
+        }
+        .icon-menu {
+            padding-left: 10px;
+            margin-top: 0px;
+        }
+        .icon-menu:hover {
+            font-size: 43px;
+        }
+        #description {
+            margin: auto;
+            padding-top: 50px;
+            margin-left: 50px;
+            line-height: 0%;
+            display: flex;
+            /* padding-left: 2%; */
+        }
+        #imagenes {
+            margin-top: 100px;
+        }
+    }
