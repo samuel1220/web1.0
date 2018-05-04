@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
     $('#idinput').click(function() {
         console.log('message inputs')
         var gato = true
@@ -11,12 +10,18 @@ $(document).ready(function() {
         }
     });
 
-    // $('.idin').click(function() {
-    //     console.log('input')
-    //     var gato = true
-    //     $(this).addClass('clasein');
+    $('#chek').click(function() {
+        console.log('input')
+            // $("#idna").addClass('clasein');
+        $('#idna').animate({
+            width: "toggle"
+        });
 
-    // });
+    });
+    $('.idgali').click(function(e) {
+        e.preventDefault();
+        $(this).children('ul').slideToggle();
+    })
 
 
 
