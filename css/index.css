@@ -331,9 +331,7 @@
         border: 10px solid rgb(0, 0, 0);
     }
     
-    #chek {
-        display: none;
-    }
+    
     
     #description label {
         color: rgb(255, 255, 255);
@@ -436,6 +434,6 @@
             /* padding-left: 2%; */
         }
         #imagenes {
-            margin-top: 100px;
+            margin-top: 120px;
         }
     }
