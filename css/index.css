@@ -331,7 +331,9 @@
         border: 10px solid rgb(0, 0, 0);
     }
     
-    
+    #chek {
+        display: none;
+    }
     
     #description label {
         color: rgb(255, 255, 255);
@@ -389,7 +391,9 @@
             font-size: 50px;
             margin-left: 0%;
         }
-     
+        /* #chek {
+            display: block;
+        } */
         #chek:checked~#btn {
             display: block;
             color: rgb(250, 247, 252);
